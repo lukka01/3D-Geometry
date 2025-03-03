@@ -9,8 +9,6 @@ abstract class BaseArea {
         return null;
     }
 
-
-
     public String toString() {
         return "Circumference: "+ circumference() + "; area: " + area() +
                 "square? : " + isSquare();
